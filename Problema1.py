@@ -1,0 +1,5 @@
+archivo1=open("datos.txt","w")
+archivo1.write("Primera linea.\n")
+archivo1.write("Segunda linea.\n")
+archivo1.write("Tercera linea.\n")
+archivo1.close()

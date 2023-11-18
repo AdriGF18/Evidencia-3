@@ -1,0 +1,6 @@
+archivo1=open("datos.txt","r+")
+contenido=archivo1.read()
+print(contenido)
+archivo1.write("Linea nueva 3\n")
+archivo1.write("Linea nueva 4\n")
+archivo1.close()
